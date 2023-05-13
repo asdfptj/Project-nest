@@ -1,6 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { NotFoundError } from 'rxjs';
 import { Board } from 'src/boards/board.entity';
 import { BoardStatus } from './board-status.enum';
 import { BoardRepository } from './board.repository';
